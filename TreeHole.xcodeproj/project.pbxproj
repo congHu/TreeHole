@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6308EB131CBBAE0C000429D4 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308EB121CBBAE0C000429D4 /* MyTableViewController.swift */; };
+		6308EB151CBBBE58000429D4 /* like.php in Resources */ = {isa = PBXBuildFile; fileRef = 6308EB141CBBBE58000429D4 /* like.php */; };
+		6308EB171CBBCBEB000429D4 /* unlike.php in Resources */ = {isa = PBXBuildFile; fileRef = 6308EB161CBBCBEB000429D4 /* unlike.php */; };
+		6308EB1A1CBBCEBC000429D4 /* fetchlike.php in Resources */ = {isa = PBXBuildFile; fileRef = 6308EB191CBBCEBC000429D4 /* fetchlike.php */; };
+		6308EB1C1CBBE6D1000429D4 /* fetchmine.php in Resources */ = {isa = PBXBuildFile; fileRef = 6308EB1B1CBBE6D1000429D4 /* fetchmine.php */; };
+		631B71EF1CBA3D460049B64E /* register.php in Resources */ = {isa = PBXBuildFile; fileRef = 631B71EE1CBA3D460049B64E /* register.php */; };
+		631B71F11CBA5F2C0049B64E /* send.php in Resources */ = {isa = PBXBuildFile; fileRef = 631B71F01CBA5F2C0049B64E /* send.php */; };
+		631B720A1CBA7DA00049B64E /* fetch.php in Resources */ = {isa = PBXBuildFile; fileRef = 631B72091CBA7DA00049B64E /* fetch.php */; };
+		639705D81CB5EC5700DE5970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639705D71CB5EC5700DE5970 /* AppDelegate.swift */; };
+		639705DD1CB5EC5700DE5970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639705DB1CB5EC5700DE5970 /* Main.storyboard */; };
+		639705DF1CB5EC5700DE5970 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639705DE1CB5EC5700DE5970 /* Images.xcassets */; };
+		639705E21CB5EC5700DE5970 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 639705E01CB5EC5700DE5970 /* LaunchScreen.xib */; };
+		639705EE1CB5EC5700DE5970 /* TreeHoleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639705ED1CB5EC5700DE5970 /* TreeHoleTests.swift */; };
+		639705F81CB5F1F900DE5970 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639705F71CB5F1F900DE5970 /* TableViewController.swift */; };
+		63AF5EF61CBC986500823302 /* moreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF5EF51CBC986500823302 /* moreButton.swift */; };
+		63AF5EF81CBC9A2F00823302 /* delete.php in Resources */ = {isa = PBXBuildFile; fileRef = 63AF5EF71CBC9A2F00823302 /* delete.php */; };
+		63AF5EFA1CBCB6B500823302 /* tipoff.php in Resources */ = {isa = PBXBuildFile; fileRef = 63AF5EF91CBCB6B500823302 /* tipoff.php */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639705E81CB5EC5700DE5970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639705CA1CB5EC5700DE5970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639705D11CB5EC5700DE5970;
+			remoteInfo = TreeHole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6308EB121CBBAE0C000429D4 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		6308EB141CBBBE58000429D4 /* like.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = like.php; sourceTree = "<group>"; };
+		6308EB161CBBCBEB000429D4 /* unlike.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = unlike.php; sourceTree = "<group>"; };
+		6308EB191CBBCEBC000429D4 /* fetchlike.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = fetchlike.php; sourceTree = "<group>"; };
+		6308EB1B1CBBE6D1000429D4 /* fetchmine.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = fetchmine.php; sourceTree = "<group>"; };
+		631B71EE1CBA3D460049B64E /* register.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = register.php; sourceTree = "<group>"; };
+		631B71F01CBA5F2C0049B64E /* send.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = send.php; sourceTree = "<group>"; };
+		631B72091CBA7DA00049B64E /* fetch.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = fetch.php; sourceTree = "<group>"; };
+		639705D21CB5EC5700DE5970 /* TreeHole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeHole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639705D61CB5EC5700DE5970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639705D71CB5EC5700DE5970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639705DC1CB5EC5700DE5970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639705DE1CB5EC5700DE5970 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		639705E11CB5EC5700DE5970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		639705E71CB5EC5700DE5970 /* TreeHoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeHoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639705EC1CB5EC5700DE5970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639705ED1CB5EC5700DE5970 /* TreeHoleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeHoleTests.swift; sourceTree = "<group>"; };
+		639705F71CB5F1F900DE5970 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		63AF5EF51CBC986500823302 /* moreButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moreButton.swift; sourceTree = "<group>"; };
+		63AF5EF71CBC9A2F00823302 /* delete.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = delete.php; sourceTree = "<group>"; };
+		63AF5EF91CBCB6B500823302 /* tipoff.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = tipoff.php; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639705CF1CB5EC5700DE5970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639705E41CB5EC5700DE5970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6308EB181CBBCD10000429D4 /* php */ = {
+			isa = PBXGroup;
+			children = (
+				63AF5EF91CBCB6B500823302 /* tipoff.php */,
+				63AF5EF71CBC9A2F00823302 /* delete.php */,
+				6308EB141CBBBE58000429D4 /* like.php */,
+				6308EB161CBBCBEB000429D4 /* unlike.php */,
+				631B72091CBA7DA00049B64E /* fetch.php */,
+				6308EB191CBBCEBC000429D4 /* fetchlike.php */,
+				6308EB1B1CBBE6D1000429D4 /* fetchmine.php */,
+				631B71F01CBA5F2C0049B64E /* send.php */,
+				631B71EE1CBA3D460049B64E /* register.php */,
+			);
+			name = php;
+			sourceTree = "<group>";
+		};
+		639705C91CB5EC5700DE5970 = {
+			isa = PBXGroup;
+			children = (
+				639705D41CB5EC5700DE5970 /* TreeHole */,
+				639705EA1CB5EC5700DE5970 /* TreeHoleTests */,
+				639705D31CB5EC5700DE5970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639705D31CB5EC5700DE5970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639705D21CB5EC5700DE5970 /* TreeHole.app */,
+				639705E71CB5EC5700DE5970 /* TreeHoleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639705D41CB5EC5700DE5970 /* TreeHole */ = {
+			isa = PBXGroup;
+			children = (
+				639705D71CB5EC5700DE5970 /* AppDelegate.swift */,
+				639705DB1CB5EC5700DE5970 /* Main.storyboard */,
+				639705F71CB5F1F900DE5970 /* TableViewController.swift */,
+				6308EB121CBBAE0C000429D4 /* MyTableViewController.swift */,
+				63AF5EF51CBC986500823302 /* moreButton.swift */,
+				639705DE1CB5EC5700DE5970 /* Images.xcassets */,
+				639705E01CB5EC5700DE5970 /* LaunchScreen.xib */,
+				6308EB181CBBCD10000429D4 /* php */,
+				639705D51CB5EC5700DE5970 /* Supporting Files */,
+			);
+			path = TreeHole;
+			sourceTree = "<group>";
+		};
+		639705D51CB5EC5700DE5970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				639705D61CB5EC5700DE5970 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		639705EA1CB5EC5700DE5970 /* TreeHoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				639705ED1CB5EC5700DE5970 /* TreeHoleTests.swift */,
+				639705EB1CB5EC5700DE5970 /* Supporting Files */,
+			);
+			path = TreeHoleTests;
+			sourceTree = "<group>";
+		};
+		639705EB1CB5EC5700DE5970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				639705EC1CB5EC5700DE5970 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639705D11CB5EC5700DE5970 /* TreeHole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639705F11CB5EC5700DE5970 /* Build configuration list for PBXNativeTarget "TreeHole" */;
+			buildPhases = (
+				639705CE1CB5EC5700DE5970 /* Sources */,
+				639705CF1CB5EC5700DE5970 /* Frameworks */,
+				639705D01CB5EC5700DE5970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeHole;
+			productName = TreeHole;
+			productReference = 639705D21CB5EC5700DE5970 /* TreeHole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639705E61CB5EC5700DE5970 /* TreeHoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639705F41CB5EC5700DE5970 /* Build configuration list for PBXNativeTarget "TreeHoleTests" */;
+			buildPhases = (
+				639705E31CB5EC5700DE5970 /* Sources */,
+				639705E41CB5EC5700DE5970 /* Frameworks */,
+				639705E51CB5EC5700DE5970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639705E91CB5EC5700DE5970 /* PBXTargetDependency */,
+			);
+			name = TreeHoleTests;
+			productName = TreeHoleTests;
+			productReference = 639705E71CB5EC5700DE5970 /* TreeHoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639705CA1CB5EC5700DE5970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					639705D11CB5EC5700DE5970 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					639705E61CB5EC5700DE5970 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 639705D11CB5EC5700DE5970;
+					};
+				};
+			};
+			buildConfigurationList = 639705CD1CB5EC5700DE5970 /* Build configuration list for PBXProject "TreeHole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639705C91CB5EC5700DE5970;
+			productRefGroup = 639705D31CB5EC5700DE5970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639705D11CB5EC5700DE5970 /* TreeHole */,
+				639705E61CB5EC5700DE5970 /* TreeHoleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639705D01CB5EC5700DE5970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AF5EFA1CBCB6B500823302 /* tipoff.php in Resources */,
+				6308EB1A1CBBCEBC000429D4 /* fetchlike.php in Resources */,
+				6308EB171CBBCBEB000429D4 /* unlike.php in Resources */,
+				631B71F11CBA5F2C0049B64E /* send.php in Resources */,
+				639705DD1CB5EC5700DE5970 /* Main.storyboard in Resources */,
+				639705E21CB5EC5700DE5970 /* LaunchScreen.xib in Resources */,
+				631B720A1CBA7DA00049B64E /* fetch.php in Resources */,
+				6308EB1C1CBBE6D1000429D4 /* fetchmine.php in Resources */,
+				6308EB151CBBBE58000429D4 /* like.php in Resources */,
+				63AF5EF81CBC9A2F00823302 /* delete.php in Resources */,
+				639705DF1CB5EC5700DE5970 /* Images.xcassets in Resources */,
+				631B71EF1CBA3D460049B64E /* register.php in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639705E51CB5EC5700DE5970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639705CE1CB5EC5700DE5970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639705F81CB5F1F900DE5970 /* TableViewController.swift in Sources */,
+				639705D81CB5EC5700DE5970 /* AppDelegate.swift in Sources */,
+				63AF5EF61CBC986500823302 /* moreButton.swift in Sources */,
+				6308EB131CBBAE0C000429D4 /* MyTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639705E31CB5EC5700DE5970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639705EE1CB5EC5700DE5970 /* TreeHoleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639705E91CB5EC5700DE5970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639705D11CB5EC5700DE5970 /* TreeHole */;
+			targetProxy = 639705E81CB5EC5700DE5970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		639705DB1CB5EC5700DE5970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639705DC1CB5EC5700DE5970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639705E01CB5EC5700DE5970 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639705E11CB5EC5700DE5970 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639705EF1CB5EC5700DE5970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639705F01CB5EC5700DE5970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639705F21CB5EC5700DE5970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = TreeHole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		639705F31CB5EC5700DE5970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = TreeHole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		639705F51CB5EC5700DE5970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TreeHoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeHole.app/TreeHole";
+			};
+			name = Debug;
+		};
+		639705F61CB5EC5700DE5970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TreeHoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeHole.app/TreeHole";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639705CD1CB5EC5700DE5970 /* Build configuration list for PBXProject "TreeHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639705EF1CB5EC5700DE5970 /* Debug */,
+				639705F01CB5EC5700DE5970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639705F11CB5EC5700DE5970 /* Build configuration list for PBXNativeTarget "TreeHole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639705F21CB5EC5700DE5970 /* Debug */,
+				639705F31CB5EC5700DE5970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639705F41CB5EC5700DE5970 /* Build configuration list for PBXNativeTarget "TreeHoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639705F51CB5EC5700DE5970 /* Debug */,
+				639705F61CB5EC5700DE5970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639705CA1CB5EC5700DE5970 /* Project object */;
+}
